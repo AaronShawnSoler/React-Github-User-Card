@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.user-card {
+  display: flex;
+  max-width: 800px;
+  margin: 16px auto;
+  padding: 16px;
+  background: #34495e;
+  color: #eee;
+  border-radius: 10px;
+}
+
+.user-card img {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+}
+
+.user-card div {
+  text-align: left;
+  align-self: center;
+  padding-left: 16px;
+}
+
+.user-card p {
+  margin: 0;
+}
